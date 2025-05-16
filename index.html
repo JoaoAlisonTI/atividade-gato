@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Fotos de Gatos</title>
+  </head>
+  <body>
+    <main>
+      <h1>Aplicativo de Fotos de Gatos</h1>
+      <section>
+        <h2>Fotos de Gatos</h2>
+        <p>Todo mundo ama <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">gatinhos fofos</a> na internet!</p>
+        <p>Veja mais <a target="_blank" href="https://freecatphotoapp.com">fotos de gatos</a> na nossa galeria.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Um gato laranja fofo deitado de costas."></a>
+      </section>
+      <section>
+        <h2>Listas de Gatos</h2>
+        <h3>Coisas que os gatos amam:</h3>
+        <ul>
+          <li>catnip</li>
+          <li>ponteiros laser</li>
+          <li>lasanha</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Uma fatia de lasanha em um prato.">
+          <figcaption>Os gatos <em>amam</em> lasanha.</figcaption>  
+        </figure>
+        <h3>Top 3 coisas que os gatos odeiam:</h3>
+        <ol>
+          <li>tratamento contra pulgas</li>
+          <li>trovões</li>
+          <li>outros gatos</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cinco gatos olhando ao redor em um campo.">
+          <figcaption>Os gatos <strong>odeiam</strong> outros gatos.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Formulário do Gato</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Seu gato é doméstico ou de rua?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Doméstico</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> De rua</label>
+          </fieldset>
+          <fieldset>
+            <legend>Qual é a personalidade do seu gato?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Amoroso</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Preguiçoso</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energético</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="URL da foto do gato" required>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Sem Direitos Autorais - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
